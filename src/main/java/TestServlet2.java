@@ -1,5 +1,3 @@
-
-
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -9,9 +7,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Servlet implementation class TestServlet2
- */
 @WebServlet("/test2")
 public class TestServlet2 extends HttpServlet {    
 	protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
